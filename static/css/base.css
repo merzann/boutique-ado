@@ -10,7 +10,7 @@ body {
     font-family: 'Lato';
 }
 
-/* from Bulma */
+/* ------------------------------- from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -77,14 +77,14 @@ body {
 }
 
 
-/* Category Badges */
+/* ------------------------------- Category Badges */
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
 
 
-/* Return-to-top button */
+/* ------------------------------- Return-to-top button */
 .btt-button {
     height: 42px;
     width: 42px;
@@ -97,6 +97,24 @@ a.category-badge > span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
+}
+
+
+/* ------------------------------- bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
 }
 
 
